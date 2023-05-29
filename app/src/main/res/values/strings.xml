@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fast Food</string>
+    <string name="image_produto">imagem do produto</string>
+    <string name="estrela_rate">imagem da estrela de avaliação\n</string>
+    <string name="description">Description</string>
+    <string name="quantidade_default">1</string>
+    <string name="remove_item">-</string>
+    <string name="add_produto">+</string>
+    <string name="btn_adicionar_carrinho">Adicionar no Carrinho</string>
+    <string name="quatidade_produto">Quantidade do produto</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FastFoodActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowBackground">@color/colorGainsboro</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorGray</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="android:textColor">@android:color/black</item>
+<!--        style="@android:style/Widget.Material.Light.SearchView"-->
+
+    </style>
+</resources>

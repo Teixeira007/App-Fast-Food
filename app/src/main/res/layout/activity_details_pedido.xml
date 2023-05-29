@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.DetailsPedido.DetailsPedidoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar_details_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@android:color/white"
+        app:title="Pedido" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view_details_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+   <TextView
+       android:id="@+id/total_details"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="25dp"
+       android:textColor="@color/colorPrimary"
+       android:layout_gravity="center_horizontal"
+       tools:text="Total: $300"/>
+
+
+</LinearLayout>
+
+</ScrollView>

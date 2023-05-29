@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/category_burgers"
+        android:title="Burgers"
+
+        />
+    <item
+        android:id="@+id/category_sandwiches"
+        android:title="Sandwiches"
+        />
+
+    <item
+        android:id="@+id/category_pizzas"
+        android:title="Pizzas"
+        />
+
+    <item
+        android:id="@+id/category_drinks"
+        android:title="Drinks"
+        />
+
+    <item
+        android:id="@+id/category_ice_cream"
+        android:title="Ice Cream"
+        />
+
+    <item
+        android:id="@+id/category_all"
+        android:title="Todos"
+        />
+
+    <item
+        android:id="@+id/category_best_foods"
+        android:title="Melhores pratos"
+        />
+
+</menu>

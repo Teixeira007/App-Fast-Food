@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_cart_item"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="Menu Cart"
+        app:showAsAction="always"/>
+
+    
+    <item
+        android:id="@+id/menu_list_pedidos"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="Lista de Pedidos"
+        app:showAsAction="always"
+        />
+
+
+</menu>
