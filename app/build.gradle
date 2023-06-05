@@ -2,19 +2,26 @@ plugins {
     id 'com.android.application'
 }
 
+repositories {
+    google()
+    mavenCentral()
+    // Outros repositórios que você precisa adicionar
+}
+
 android {
-    namespace 'com.home.fastfoodactivity'
     compileSdk 33
 
     defaultConfig {
         applicationId "com.home.fastfoodactivity"
-        minSdk 24
+        minSdk 16
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+
 
     buildTypes {
         release {
