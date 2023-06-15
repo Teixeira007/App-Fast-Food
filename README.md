@@ -46,10 +46,10 @@ Pesquisa de Produtos: Existe um campo de pesquisa que permite ao usuário buscar
 Tecnologias Utilizadas
 O projeto utiliza as seguintes tecnologias e ferramentas:
 
-Java
-Android SDK
-API de consumo: https://free-food-menus-api.onrender.com/
-Banco de Dados Local (biblioteca room)
+- Java
+- Android SDK
+- API de consumo: https://free-food-menus-api.onrender.com/
+- Banco de Dados Local (biblioteca room)
 Configuração do Projeto
 Para configurar o projeto em seu ambiente de desenvolvimento, siga as instruções abaixo:
 
